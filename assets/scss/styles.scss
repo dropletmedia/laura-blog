@@ -1,9 +1,16 @@
-@import "vars";
-@import "layout";
-@import "animations";
-@import "transitions";
-@import "util";
+@import 'vars';
+@import 'layout';
+@import 'animations';
+@import 'transitions';
+@import 'util';
 // Import Bulma and Buefy styles
-@import "~bulma";
-@import "~buefy/src/scss/buefy";
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
